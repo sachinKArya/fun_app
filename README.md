@@ -2,15 +2,18 @@
 
 A new Flutter project.
 
-## Getting Started
+Added below packages to the app:
 
-This project is a starting point for a Flutter application.
+1. get_it: to impement Dependency Injection
+2. connectivity_plus: to check internet connectivity
+3. dartz: to handle error scenarios in a efficient way
+4. equatable: to compare the values wether they are same or not
+5. flutter_bloc: For state management
+6. responsive_builder: to make UI responsive
+7. chopper: to make network call
+8. sqflite: To save data locally
 
-A few resources to get you started if this is your first Flutter project:
+This project will require below commands to be executed for running the app locally:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. flutter pub get
+2. flutter packages pub run build_runner build  --delete-conflicting-outputs
